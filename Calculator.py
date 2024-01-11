@@ -3,7 +3,7 @@ First Repository.
 <br>
 Author - Ajay Biswas
 <br>
-I am create a calculator using python.
+Creating basic a calculator by using python.
 <br>
 Hope You Enjoy :)
 
