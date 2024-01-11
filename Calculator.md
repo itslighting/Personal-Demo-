@@ -2,8 +2,9 @@
 This is my first Repository.
 <br>
 Author - Ajay Biswas
-Hi, I am create a calculator using python.
-# Hope You Enjoy :)
+<br>
+I am create a calculator using python.
+Hope You Enjoy :)
 
 '''python
 It can do addition, subtraction, multiplication, division,
