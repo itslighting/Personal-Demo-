@@ -23,15 +23,16 @@ print ("The Subtraction value of", a, "-", b, "is:-" ,(int(a) - int(b))) # Assig
 print ("The Multiplication value of", a, "*", b, "is:-" ,(int(a) * int(b))) # Assign a specific value to a variable.
 
 def Error_Fixing(a, b): #This is a function (/)
-    if b < 0:
-        print("The Division value of", a, "/", b, "is:-", (int(a) / int(b)))
-    else:
-        print("Error") #Cannot divide by zero! Please enter a non-zero value for the second number.
+    if b == 0:
+         print("Error") #Cannot divide by zero! Please enter a non-zero value for the second number.
+    return (int(a) / int(b))
+print ("The Division value of", a, "/", b, "is:-", (int(a) / int(b)))
 
 def Erro_Fixing(a, b): #This is a function (//)
     if b < 0:
-        print("The Floor Division value of", a, "//", b, "is:-", (int(a) // int(b)))
-    else:
-        print("Error") #Cannot divide by zero! Please enter a non-zero value for the second number.
-print ("The Modulus value of", a, "%", c, "is:-" ,(int(a) % int(c)))
+        print("Error") #Cannot divide by zero! Please enter a non-zero value for the second number.  
+    return (int(a) // int(b))
+print("The Floor Division value of", a, "//", b, "is:-", (int(a) // int(b)))
+
+print ("The Modulus value of", a, "%", b, "is:-", (int(a) % int(c)))
 ```
