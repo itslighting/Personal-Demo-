@@ -12,7 +12,7 @@ It can do addition, subtraction, multiplication, division,
 a = int(input("Enter the first number: ") or 0)  # Convert input to integer.
 b = int(input("Enter the second number: ") or 0) # Convert input to integer.
 c = int(float(input("Enter the modulus number: ")) or 0) # Convert input to integer.
-d = 0.1    #Assign a specific value to a variable.
+d = 0.1 #Assign a specific value to a variable.
 ```
 
 ```python
