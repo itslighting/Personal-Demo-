@@ -14,7 +14,7 @@ b = int(input("Enter the second number: ") or 0) # Convert input to integer.
 c = int(float(input("Enter the modulus number: ")) or 0) # Convert input to integer.
 d = 0.1 #Assign a specific value to a variable.
 ```
-
+# Creating a Function
 ```python
 print("The Addition value of ", a, "+", b, "is:-" ,(int(a) + int(b))) # Assign a specific value to a variable.
 
