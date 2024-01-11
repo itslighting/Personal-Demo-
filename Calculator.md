@@ -1,5 +1,5 @@
-# Testing
-This is my first Repository.
+# Calculator
+First Repository.
 <br>
 Author - Ajay Biswas
 <br>
